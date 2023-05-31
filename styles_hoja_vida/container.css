@@ -1,8 +1,7 @@
 .container {
-    background-color: cornsilk; /*pendiente cambiar color*/
-    height: auto;
-    width: 150vh;
-    margin: 3rem auto;
-    display: grid;
-    grid-template-columns: 1fr;
+  background-color: cornsilk; /*pendiente cambiar color*/
+  width: 130vh;
+  margin: 3rem auto;
+  display: grid;
+  grid-template-columns: 30vh 100vh;
 }
