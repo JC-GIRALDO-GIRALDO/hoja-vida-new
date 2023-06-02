@@ -1,0 +1,271 @@
+@media (max-width: 375px) {
+  .box1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: grid;
+    grid-template-rows: 40rem 28rem 28rem auto;
+  }
+
+  .foto > img {
+    width: 310px;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contacto {
+    margin-left: 0.1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin: auto;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  .contacto > a {
+    text-decoration: none;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 2rem;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  .contacto > a:hover {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.9);
+    transition: 60ms;
+  }
+
+  .material-symbols-outlined {
+    background-color: beige;
+    color: brown;
+    padding-right: 2rem;
+    border-top-right-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+    margin-right: 2rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+  }
+
+  .material-symbols-outlined:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: 60ms;
+  }
+
+  .habilidades {
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .habilidades > p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    margin: 0.7rem;
+    font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 40px;
+  }
+
+  progress {
+    background-color: brown;
+  }
+
+  .hobbies > img {
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+}
+/*
+@media (max-width: 414px) {
+  .box1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: grid;
+    grid-template-rows: 40rem 28rem 28rem auto;
+  }
+
+  .foto > img {
+    width: 310px;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contacto {
+    margin-left: 0.1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin: auto;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  .contacto > a {
+    text-decoration: none;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 2rem;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  .contacto > a:hover {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.9);
+    transition: 60ms;
+  }
+
+  .material-symbols-outlined {
+    background-color: beige;
+    color: brown;
+    padding-right: 2rem;
+    border-top-right-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+    margin-right: 2rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+  }
+
+  .material-symbols-outlined:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: 60ms;
+  }
+
+  .habilidades {
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .habilidades > p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    margin: 0.7rem;
+    font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 60px;
+  }
+
+  progress {
+    background-color: brown;
+  }
+}
+
+@media (max-width: 390px) {
+  .box1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: grid;
+    grid-template-rows: 40rem 28rem 28rem auto;
+  }
+
+  .foto > img {
+    width: 320px;
+    margin: 1rem auto auto;
+    margin-left: 2.9rem;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 820px) {
+  .box1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: grid;
+    grid-template-rows: 44rem 34rem 40rem auto;
+  }
+
+  .foto > img {
+    width: 360px;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contacto {
+    margin-left: 0.1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 4rem;
+    margin: auto;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  .contacto > a {
+    text-decoration: none;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 2rem;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  .contacto > a:hover {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.9);
+    transition: 60ms;
+  }
+
+  .material-symbols-outlined {
+    background-color: beige;
+    color: brown;
+    padding-right: 6rem;
+    border-top-right-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+    margin-right: 2rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+  }
+
+  .material-symbols-outlined:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: 60ms;
+  }
+
+  .habilidades {
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .habilidades > p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 25px;
+    margin: 0.7rem;
+    font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 100px;
+  }
+
+  progress {
+    background-color: brown;
+  }
+}
+
+.hobbies > img {
+  width: 40px;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+*/
